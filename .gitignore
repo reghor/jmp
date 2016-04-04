@@ -52,7 +52,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-target/**
+**/target/**
 nbactions.xml
 
 
