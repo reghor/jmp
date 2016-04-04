@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd	">
+
+	<!-- Service mapping -->
+	<bean id="employeeServiceImpl" class="by.reghor.ormjmp.service.impl.EmployeeServiceImpl">
+		<property name="employeeDaoImpl" ref="employeeDaoImpl" />
+	</bean>
+	<bean id="employeePersonalInfoServiceImpl"
+		class="by.reghor.ormjmp.service.impl.EmployeePersonalInfoServiceImpl">
+		<property name="employeePersonalInfoDaoImpl" ref="employeePersonalInfoDaoImpl" />
+	</bean>
+	<bean id="projectServiceImpl" class="by.reghor.ormjmp.service.impl.ProjectServiceImpl">
+		<property name="projectDaoImpl" ref="projectDaoImpl" />
+	</bean>
+	<bean id="unitServiceImpl" class="by.reghor.ormjmp.service.impl.UnitServiceImpl">
+		<property name="unitDaoImpl" ref="unitDaoImpl" />
+	</bean>
+
+	<!-- Dao mapping -->
+	<bean id="employeeDaoImpl" class="by.reghor.ormjmp.dao.impl.EmployeeDaoImpl" />
+	<bean id="employeePersonalInfoDaoImpl"
+		class="by.reghor.ormjmp.dao.impl.EmployeePersonalInfoDaoImpl" />
+	<bean id="projectDaoImpl" class="by.reghor.ormjmp.dao.impl.ProjectDaoImpl" />
+	<bean id="unitDaoImpl" class="by.reghor.ormjmp.dao.impl.UnitDaoImpl" />
+
+
+
+</beans>

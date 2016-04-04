@@ -1,0 +1,11 @@
+by/reghor/wsjmp/dao/imp/PassengerDaoImpl.class
+by/reghor/wsjmp/service/ITicketService.class
+by/reghor/wsjmp/service/impl/PassengerServiceImpl.class
+by/reghor/wsjmp/entity/Ticket.class
+by/reghor/wsjmp/service/impl/TicketServiceImpl.class
+by/reghor/wsjmp/entity/TicketStatus.class
+by/reghor/wsjmp/entity/Passenger.class
+by/reghor/wsjmp/dao/imp/TicketDaoImpl.class
+by/reghor/wsjmp/service/IPassengerService.class
+by/reghor/wsjmp/dao/IPassengerDao.class
+by/reghor/wsjmp/dao/ITicketDao.class

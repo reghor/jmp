@@ -1,0 +1,11 @@
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/service/impl/PassengerServiceImpl.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/dao/imp/PassengerDaoImpl.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/entity/TicketStatus.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/dao/imp/TicketDaoImpl.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/entity/Ticket.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/dao/ITicketDao.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/service/impl/TicketServiceImpl.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/entity/Passenger.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/service/ITicketService.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/service/IPassengerService.java
+/home/reghor/programming/eclipse/jmp/root/core/src/main/java/by/reghor/wsjmp/dao/IPassengerDao.java
